@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    background: linear-gradient(120deg, #fdf5e6, #ffd1dc, #f0f8ff);
+    background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.dedication-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffebf0, #fce5cd);
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid #d44d90;
+}
+
+/* Header */
+.dedication-header h1 {
+    font-size: 2rem;
+    color: #d44d90;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.invitation-text {
+    font-size: 1.4rem;
+    color: #555;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Baby Image */
+.baby-image {
+    width: 80%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Host Names */
+.host-names {
+    font-size: 1.3rem;
+    color: #d44d90;
+    font-weight: bold;
+}
+
+/* Invitation Message */
+.invitation-message {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Child Name */
+.child-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #d44d90;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Event Details */
+.event-details {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Highlight */
+.highlight {
+    color: #f57c00;
+    font-weight: bold;
+}
+
+/* Contact Number */
+.contact-number {
+    color: #d44d90;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Countdown Timer */
+.countdown-timer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffe4e1;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #d44d90;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Individual Timer Box */
+.timer span {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: #d44d90;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.8);
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5); /* Faint text */
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dedication-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .dedication-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .invitation-text {
+        font-size: 1.2rem;
+    }
+
+    .baby-image {
+        width: 90%;
+    }
+
+    .timer {
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .timer span {
+        padding: 6px 12px;
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
