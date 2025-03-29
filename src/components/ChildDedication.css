@@ -227,21 +227,21 @@ body {
     }
 
     .timer {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         flex-wrap: wrap;
         gap: 5px;
     }
 
     .timer span {
         padding: 6px 12px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .music-controls {
         flex-direction: row; 
         gap: 6px;
     }
     .music-controls button {
-        width: 60%; /* Make buttons wider for easy tapping */
+        width: 80%; /* Make buttons wider for easy tapping */
     }
 
     .footer {
