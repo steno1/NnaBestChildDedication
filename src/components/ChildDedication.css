@@ -239,9 +239,11 @@ body {
     .music-controls {
         flex-direction: row; 
         gap: 6px;
+        padding: 10px;
     }
     .music-controls button {
         width: 70%; /* Make buttons wider for easy tapping */
+      
     }
 
     .footer {
