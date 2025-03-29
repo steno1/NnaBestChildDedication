@@ -116,14 +116,18 @@ body {
     color: #fff;
     box-shadow: 0 0 5px rgba(255, 105, 180, 0.8);
 }
+
+
 .footer a {
     color: #d44d90;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+    color: #b83778;
+    text-shadow: 0 0 5px rgba(212, 77, 144, 0.7);
 }
 
 /* Music Controls */
