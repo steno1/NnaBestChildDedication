@@ -241,7 +241,7 @@ body {
         gap: 6px;
     }
     .music-controls button {
-        width: 80%; /* Make buttons wider for easy tapping */
+        width: 70%; /* Make buttons wider for easy tapping */
     }
 
     .footer {
