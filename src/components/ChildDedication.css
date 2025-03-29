@@ -126,6 +126,86 @@ body {
     font-style: italic;
 }
 
+/* Music Controls */
+.music-controls {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #ffd1dc, #fce5cd);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row; /* Align buttons horizontally */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.music-controls button {
+    background: #d44d90;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.music-controls button:hover {
+    background: #b83778;
+}
+
+.music-controls .volume-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d44d90;
+}
+
+.music-controls audio {
+    display: none; /* Hide default audio player */
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+}
+
+.balloon {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+    animation: floatUp 5s ease-in-out forwards;
+}
+
+.balloon::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background: gray;
+    top: 70px;
+    left: 50%;
+}
+
+.confetti {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: gold;
+    opacity: 0.8;
+    animation: floatUp 3s ease-in-out forwards;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -155,6 +235,13 @@ body {
     .timer span {
         padding: 6px 12px;
         font-size: 1.2rem;
+    }
+    .music-controls {
+        flex-direction: row; 
+        gap: 6px;
+    }
+    .music-controls button {
+        width: 80%; /* Make buttons wider for easy tapping */
     }
 
     .footer {
