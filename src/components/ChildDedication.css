@@ -116,14 +116,14 @@ body {
     color: #fff;
     box-shadow: 0 0 5px rgba(255, 105, 180, 0.8);
 }
+.footer a {
+    color: #d44d90;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-.footer {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: rgba(0, 0, 0, 0.5); /* Faint text */
-    font-size: 0.9rem;
-    text-align: center;
-    font-style: italic;
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Music Controls */

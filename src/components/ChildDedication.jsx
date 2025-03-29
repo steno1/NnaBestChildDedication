@@ -137,8 +137,10 @@ const ChildDedication = () => {
           audioRef={audioRef} 
         />
       </div>
-
-      <footer className="footer">Designed by Princeley</footer>
+      <footer className="footer">
+  Built by <a href="https://steno.com.ng" target="_blank" rel="noopener noreferrer">steno.com.ng</a><br />
+  <span>📞 +2348142534211</span>
+</footer>
     </>
   );
 };
